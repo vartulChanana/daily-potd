@@ -2,6 +2,9 @@
 
 Hi! 👋 I'm Vartul, and I'm currently practicing daily coding problems from **GeeksforGeeks (GFG)** and **LeetCode** to strengthen my problem-solving and DSA skills.  
 This repository tracks my consistent progress and solutions, organized by platform and date.
+My goal is to stay consistent and regular for 60 days without taking a single day off. 
+Completing this challenge will serve as proof of my discipline and commitment.
+I’ll also share my progress and certificate on LinkedIn, where I’ll be uploading updates about my streak status.
 
 ---
 
