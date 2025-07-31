@@ -1,20 +1,25 @@
 class Solution:
     def countBalanced(self, arr):
         from collections import defaultdict
-        
-        vowels = set('aeiou')
-        balance_counter = defaultdict(int)
-        balance_counter[0] = 1  # Initial neutral balance
-        balance = 0
-        result = 0
-        
-        for s in arr:
+
+        def get_balance(s):
+            vowels = set('aeiou')
+            bal = 0
             for ch in s:
                 if ch in vowels:
-                    balance += 1
+                    bal += 1
                 else:
-                    balance -= 1
-                result += balance_counter[balance]
-                balance_counter[balance] += 1
-                
-        return result
+                    bal -= 1
+            return bal
+
+        count = 0
+        balance = 0
+        balance_map = defaultdict(int)
+        balance_map[0] = 1  
+
+        for s in arr:
+            balance += get_balance(s)
+            count += balance_map[balance]
+            balance_map[balance] += 1
+
+        return count
