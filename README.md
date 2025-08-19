@@ -6,6 +6,11 @@ My goal is to stay consistent and regular for 60 days without taking a single da
 Completing this challenge will serve as proof of my discipline and commitment.
 I’ll also share my progress and certificate on LinkedIn, where I’ll be uploading updates about my streak status.
 
+#Goal Achieved :
+I have completed 60 days of potd streak on both LeetCode and GeeksForGeeks 
+Now i will still be doing questions of potd @LeetCode 
+I will also be solving random questions from @Leetcode which i will be keeping a track of in a different folder 
+
 ---
 
 ## 📁 Folder Structure:
